@@ -1,0 +1,85 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="home.css">
+<body>
+
+ <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Sign Up</a>
+  <div class="topnav-right">
+    <a href="#search">Login</a>
+    <a href="#about">About</a>
+  </div>
+</div> 
+
+<!-- Slide Show -->
+<div class="split left">
+  <div class="centered">
+  <img class="mySlides" src="1.jpg"
+  style="width:55%">
+  <img class="mySlides" src="2.jpg"
+  style="width:55%">
+  <img class="mySlides" src="index.jpg"
+  style="width:55%">
+</div>
+</div>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="wwide">BLOOD BANK</h2>
+<p class="aopacity"><i>We help for a great cause</i></p>
+  <p class="ajustify">A blood bank is a center where blood gathered as a result of blood
+ 	donation is stored and preserved for later use in blood transfusion. The term "blood bank" typically
+ 	refers to a division of a hospital where the storage of blood product occurs and where proper testing 
+ 	is performed (to reduce the risk of transfusion related adverse events). However, it sometimes refers 
+	to a collection center, and indeed some hospitals also perform collection. </p><br>
+<p>Our blood bank is one of the very  few to actually showcase the realtime applicaion of the same. The donor can also register himmself in this illustrious website. as </p>
+   </p>
+</section>
+
+<!-- Band Members -->
+<div class="split right">
+  <div class="centered">
+ 
+
+  <article class="w3-third">
+    <h2>"Donating blood is the purest form of donation"</h2>
+    <p>Our Website is the Best bitches</p>
+  </article>
+</div>
+</div>
+
+<!-- Footer -->
+<div class= "foot">
+  <a href="#">varunjcnayak<i class="fa fa-facebook-official"></i></a>
+  <a href="#">sandeep<i class="fa fa-pinterest-p"></i></a>
+  <a href="#">rishabh<i class="fa fa-twitter"></i></a>
+  <a href="#">ayush<i class="fa fa-flickr"></i></a>
+  
+  <p class="medium">
+  Powered by <a href="https://github.com/varunjcnayak/ITT-project" target="_blank">Github</a>
+  </p>
+</div>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
